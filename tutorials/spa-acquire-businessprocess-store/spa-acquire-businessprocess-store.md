@@ -9,15 +9,15 @@ primary_tag: software-product>sap-build-process-automation
 ---
 
 # Acquire A Template Project From The Store
-<!-- description --> Import a sales orders approval process from the SAP Build store and modify the process in SAP Build Process Automation.
+<!-- description --> Import a sample Business process from the SAP Build store
 
 ## Prerequisites
 - Account with [SAP BTP Free Tier](spa-subscribe-booster) service plan for SAP Build Process Automation
 
 ## You will learn
-  - How to explore content in the SAP Build Store.
-  - How to acquire any business process from the SAP Build Store.
-  - How to reuse a package from the Store in SAP Build Process Automation.
+  - How to explore content in the SAP Build Store
+  - How to acquire any business process from the SAP Build Store
+  - How to reuse a package from the Store in SAP Build Process Automation
 
 ---
 ### Explore the store
