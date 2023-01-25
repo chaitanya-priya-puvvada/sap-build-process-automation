@@ -20,6 +20,7 @@ primary_tag: software-product>sap-build-process-automation
 
 
 ##Intro
+
 A business process is started by defining a trigger, an event that indicates to your SAP Build Process Automation tenant to start a process instance.
 Process triggers can be either a form, such as a request form, or an API call, where an external system starts the process.
 You can start an instance of your process using an API call , with the inputs for the call configured from the process builder. These inputs can then be used as input fields in your process.
