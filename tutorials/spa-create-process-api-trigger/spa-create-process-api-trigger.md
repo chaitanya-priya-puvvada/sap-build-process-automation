@@ -3,7 +3,7 @@ parser: v2
 author_name: Chaitanya Priya Puvvada
 author_profile: https://github.com/chaitanya-priya-puvvada
 auto_validation: true
-time: 15
+time: 20
 tags: [ tutorial>beginner, software-product>sap-business-technology-platform, tutorial>free-tier]
 primary_tag: software-product>sap-build-process-automation
 ---
@@ -12,12 +12,15 @@ primary_tag: software-product>sap-build-process-automation
 <!-- description --> Create an API trigger for the process and start the Business Process from any other service such as SAP Build Apps.
 
 ## Prerequisites
- - Complete [Acquire A Template Project From The Store](spa-acquire-businessprocess-store).
+ - Complete [Acquire A Template Project From The Store](spa-acquire-businessprocess-store). **OR**
+ - Complete the mission [Build Your First Business Process with SAP Build Process Automation](mission.sap-process-automation)
 
 ## You will learn
   - How to create an API trigger for the business process
+  
 
----
+##Intro
+You can start an instance of your process using an API call , with the inputs for the call configured from the process builder. These inputs can then be used as input fields in your process.
 
 ### Create an API trigger for the process
 
@@ -51,7 +54,7 @@ Once you have completed the tutorial [Acquire A Template Project From The Store]
     <!-- border -->![Create API Trigger Pop Up](5.png)
 
 
-### Configure the inputs for the API trigger
+### Create the inputs for an API trigger
 
 1. Select **Sales Order Trigger**, click on the **Canvas**, and choose **Inputs**. Then choose **Configure** to configure inputs.
 
@@ -142,7 +145,7 @@ Since you have created an API trigger, the bindings were lost as mentioned in **
 
 5. **Save** your project.
 
-### Release and deploy the process with API trigger
+### Release and deploy the process with an API trigger
 
 1. **Release** the project.
 
