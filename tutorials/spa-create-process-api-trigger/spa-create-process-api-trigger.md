@@ -8,18 +8,20 @@ tags: [ tutorial>beginner, software-product>sap-business-technology-platform, tu
 primary_tag: software-product>sap-build-process-automation
 ---
 
-# Create An API Trigger For The Business Process
-<!-- description --> Create an API trigger for the process and start the Business Process from any other service such as SAP Build Apps.
+# Create An API Trigger For The  Process
+<!-- description --> Create an API trigger for the process
 
 ## Prerequisites
  - Complete [Acquire A Template Project From The Store](spa-acquire-businessprocess-store). **OR**
  - Complete the mission [Build Your First Business Process with SAP Build Process Automation](mission.sap-process-automation)
 
 ## You will learn
-  - How to create an API trigger for the business process
-  
+  - How to create an API trigger for the business process to start the instance from my any service like SAP Build Apps.
+
 
 ##Intro
+A business process is started by defining a trigger, an event that indicates to your SAP Build Process Automation tenant to start a process instance.
+Process triggers can be either a form, such as a request form, or an API call, where an external system starts the process.
 You can start an instance of your process using an API call , with the inputs for the call configured from the process builder. These inputs can then be used as input fields in your process.
 
 ### Create an API trigger for the process
